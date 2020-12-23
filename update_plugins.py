@@ -57,12 +57,13 @@ vim-ruby https://github.com/vim-ruby/vim-ruby
 typescript-vim https://github.com/leafgarland/typescript-vim
 vim-javascript https://github.com/pangloss/vim-javascript
 vim-python-pep8-indent https://github.com/Vimjas/vim-python-pep8-indent
+vim-plug https://github.com/junegunn/vim-plug
 """.strip()
+
 
 GITHUB_ZIP = "%s/archive/master.zip"
 
 SOURCE_DIR = path.join(path.dirname(__file__), "sources_non_forked")
-
 
 def download_extract_replace(plugin_name, zip_path, temp_dir, source_dir):
     temp_zip_path = path.join(temp_dir, plugin_name)
