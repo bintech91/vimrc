@@ -178,6 +178,6 @@ nnoremap <silent> <leader>d :GitGutterToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-plug (plugins manager)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin('~/.vim_runtime/sources_non_forked')
+call plug#begin('~/.vim_runtime/sources_non_forked/vim-plug')
 Plug 'ycm-core/YouCompleteMe', {'as': 'youcompleteme', 'do':'python3 install.py --all'}
 call plug#end()
